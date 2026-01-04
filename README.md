@@ -2,7 +2,10 @@
 
 Chrome extension that allows you to control the playback speed of HTML5 video and audio elements on any website. Works with YouTube, Netflix, or any other site that uses HTML5 media elements.
 
-The extension injects a content script that finds all `<video>` and `<audio>` elements and sets their `playbackRate` to your selected speed. It monitors for dynamically loaded content and re-applies the speed if any media elements are reset.
+The extension injects a content script that continuously searches for all `<video>` and `<audio>` elements and changes their `playbackRate` to the selected speed. It also searches in the shadow DOM to apply the speed up to dynamically loaded content.
+
+## Get Extension
+[Download the Chrome extension here]()
 
 ## How to Install
 
