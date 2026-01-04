@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "description": "Control playback speed of HTML5 video and audio elements",
   "permissions": [
-    "storage",
-    "scripting"
+    "storage"
   ],
   "action": {
     "default_popup": "popup.html",
