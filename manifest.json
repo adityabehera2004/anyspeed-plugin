@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Control playback speed of HTML5 video and audio elements",
   "permissions": [
-    "storage"
+    "storage",
+    "scripting"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -14,6 +15,9 @@
       "128": "icons/icon-128.png"
     }
   },
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
