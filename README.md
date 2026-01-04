@@ -1,6 +1,6 @@
 # AnySpeed
 
-Chrome extension that allows you to control the playback speed of HTML5 video and audio elements on any website. Works with YouTube, Netflix, or any other site that uses HTML5 media elements.
+Chrome extension that controls the playback speed of HTML5 video and audio elements on any website. Works with YouTube, Netflix, or any other site that uses HTML5 media elements.
 
 The extension injects a content script that continuously searches for all `<video>` and `<audio>` elements and changes their `playbackRate` to the selected speed. It also searches in the shadow DOM to apply the speed up to dynamically loaded content.
 
