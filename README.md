@@ -5,7 +5,7 @@ Chrome extension that controls the playback speed of HTML5 video and audio eleme
 The extension injects a content script that continuously searches for all `<video>` and `<audio>` elements and changes their `playbackRate` to the selected speed. It also searches in the shadow DOM to apply the speed up to dynamically loaded content.
 
 ## Get Extension
-[Download the Chrome extension here]()
+[Download the Chrome extension here](https://chromewebstore.google.com/detail/anyspeed/elbbdkpeimgmoeakllkimgcpdnnfldoi)
 
 ## How to Install
 
