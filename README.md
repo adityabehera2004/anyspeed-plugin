@@ -7,7 +7,7 @@ The extension injects a content script that continuously searches for all `<vide
 ## Get Extension
 [Download the Chrome extension here](https://chromewebstore.google.com/detail/anyspeed/elbbdkpeimgmoeakllkimgcpdnnfldoi)
 
-## How to Install
+## How to Test
 
 1. Clone this repository
 2. Go to `chrome://extensions/`
